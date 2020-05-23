@@ -1,0 +1,20 @@
+{
+  "name": "Whatsapp Web Dark Mode",
+  "version": "0.1",
+  "description": "Use this extension to toggle whatsapp web between dark mode and light mode",
+  "permissions": ["activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Click to toggle between dark and light mode for whatsapp web"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "manifest_version": 2
+}
