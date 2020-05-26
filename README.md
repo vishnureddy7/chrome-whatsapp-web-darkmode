@@ -1,6 +1,8 @@
 # Chrome Extension - Whatsapp Web Dark Mode
 
-## How to use
+https://chrome.google.com/webstore/detail/dark-whatsapp-web/olbempdmoflopdbhlfihgkackolfegkg
+
+## How to use unpacked version
 
 * *git clone https://github.com/vishnureddy7/chrome-whatsapp-web-darkmode.git* or download zip and extract it
 * open *chrome://extensions*
