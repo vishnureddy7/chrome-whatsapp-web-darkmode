@@ -1,14 +1,24 @@
 {
   "name": "Dark Whatsapp Web",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Enable or Disable Whatsapp Web Dark mode",
-  "permissions": ["activeTab"],
+  "permissions": ["storage", "declarativeContent", "activeTab", "webNavigation"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "browser_action": {
-    "default_title": "Enable or Disable Whatsapp Web Dark mode"
+  "content_scripts": [{
+    "js": ["contentscript.js"],
+    "matches": ["https://web.whatsapp.com/*"]
+  }],
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon-16.png",
+      "32": "images/icon-32.png",
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    }
   },
   "icons": {
     "16": "images/icon-16.png",
@@ -18,3 +28,4 @@
   },
   "manifest_version": 2
 }
+
