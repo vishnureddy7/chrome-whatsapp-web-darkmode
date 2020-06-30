@@ -1,4 +1,4 @@
-if(localStorage['whatsapp-web-mode']==undefined){
+if(localStorage['whatsapp-web-mode']==undefined || localStorage['whatsapp-web-mode']=="undefined"){
   document.body.classList.add("dark");
   localStorage['whatsapp-web-mode']="dark";
 }
