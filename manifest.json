@@ -1,6 +1,6 @@
 {
   "name": "Dark Whatsapp Web",
-  "version": "0.2",
+  "version": "0.3",
   "description": "Enable or Disable Whatsapp Web Dark mode",
   "permissions": ["storage", "declarativeContent", "activeTab"],
   "background": {
