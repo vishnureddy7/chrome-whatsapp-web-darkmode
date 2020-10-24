@@ -12,5 +12,5 @@ https://chrome.google.com/webstore/detail/dark-whatsapp-web/olbempdmoflopdbhlfih
 
 That's it :) Now open *https://web.whatsapp.com* and click on whatsapp dark icon to get dark mode and click again to go back to light mode
 
-![Screenshot](https://github.com/vishnureddy7/dark-whatsapp-web-chrome/blob/master/images/screenshot-4.jpg)
-![Screenshot](https://github.com/vishnureddy7/dark-whatsapp-web-chrome/blob/master/images/screenshot-3.jpg)
+![Screenshot](https://github.com/vishnureddy7/dark-whatsapp-web-chrome/blob/master/images/screenshot-1.jpg)
+![Screenshot](https://github.com/vishnureddy7/dark-whatsapp-web-chrome/blob/master/images/screenshot-2.jpg)
